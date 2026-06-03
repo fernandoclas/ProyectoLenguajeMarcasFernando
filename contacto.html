@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Drum</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Tienda<span>Drum</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="productos.html">Catálogo</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="contacto.html" class="active">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="section-title">Abre un <span>Ticket</span></h2>
+        
+        <div class="form-container animate-fade-up">
+            <form action="#" method="post" enctype="application/x-www-form-urlencoded">
+                
+                <div class="form-floating">
+                    <input type="text" id="nombre" name="nombre" placeholder=" " required>
+                    <label for="nombre">Nombre Completo (Ej: Fernando Guerra)</label>
+                </div>
+                
+                <div class="form-floating">
+                    <input type="email" id="email" name="email" placeholder=" " required>
+                    <label for="email">Correo Electrónico Válido</label>
+                </div>
+
+                <div class="form-floating">
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected hidden></option>
+                        <option value="tecnico">Asistencia Hardware/Software</option>
+                        <option value="presupuesto">Presupuesto B2B Mayorista</option>
+                        <option value="pedido">Incidencia con Pedido Online</option>
+                    </select>
+                    <label for="asunto">Naturaleza de la Consulta</label>
+                </div>
+
+                <div class="form-floating">
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder=" " required></textarea>
+                    <label for="mensaje">Detalla el modelo de tu impresora y la incidencia...</label>
+                </div>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="privacidad" name="privacidad" required>
+                    <label for="privacidad">Acepto la política de protección de datos según el RGPD europeo.</label>
+                </div>
+
+                <button type="submit" class="btn" style="width: 100%;">Procesar Solicitud</button>
+                
+            </form>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3>Tienda<span>Drum</span></h3>
+                <p>Elevando el estándar de la impresión digital. Suministros de alta fidelidad para creadores y empresas.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navegación</h4>
+                <ul>
+                    <li><a href="productos.html">Catálogo Online</a></li>
+                    <li><a href="servicios.html">Servicio Técnico</a></li>
+                    <li><a href="contacto.html">Pedir Presupuesto</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="#">Términos de Uso</a></li>
+                    <li><a href="#">Privacidad</a></li>
+                    <li><a href="#">Política de Cookies</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tienda Drum. Paseo de Cánovas, Cáceres. Proyecto Académico.</p>
+        </div>
+    </footer>
+</body>
+</html>
